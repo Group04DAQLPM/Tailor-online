@@ -1,0 +1,323 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Tailor\n"
+"POT-Creation-Date: 2018-12-28 18:00+0530\n"
+"PO-Revision-Date: 2018-12-28 17:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:9
+msgid "404 - Article Not Found"
+msgstr ""
+
+#: 404.php:19
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:20
+msgid "This is embarassing. We can't find what you were looking for."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: author.php:8
+msgid "Published by"
+msgstr ""
+
+#: category.php:9 functions/breadcrumbs.php:20
+msgid "Category"
+msgstr ""
+
+#. translators: 1: comment count number
+#: comments.php:20
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:47
+msgid "Powered By "
+msgstr ""
+
+#: footer.php:48
+msgid " Tailor WordPress Theme"
+msgstr ""
+
+#: functions.php:22
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:71
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:86
+msgid "Continue Reading"
+msgstr ""
+
+#: functions.php:92
+msgid "Pro Feature"
+msgstr ""
+
+#: functions.php:92
+msgid "Tailor Pro"
+msgstr ""
+
+#: functions/breadcrumbs.php:12 functions/breadcrumbs.php:15
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs.php:22
+msgid "Search Results For "
+msgstr ""
+
+#: functions/breadcrumbs.php:81
+msgid "Posts tagged"
+msgstr ""
+
+#: functions/breadcrumbs.php:85
+msgid "Articles Published by"
+msgstr ""
+
+#: functions/breadcrumbs.php:87
+msgid "Error 404"
+msgstr ""
+
+#: functions/breadcrumbs.php:93
+msgid "Page"
+msgstr ""
+
+#: functions/theme-customizer.php:5
+msgid "Basic Settings"
+msgstr ""
+
+#: functions/theme-customizer.php:10
+msgid "Social Settings"
+msgstr ""
+
+#: functions/theme-customizer.php:17
+msgid "Front Page Settings"
+msgstr ""
+
+#: functions/theme-customizer.php:22
+msgid "Slider Section"
+msgstr ""
+
+#: functions/theme-customizer.php:28
+msgid "About Us Section"
+msgstr ""
+
+#: functions/theme-customizer.php:33
+msgid "Blog Section"
+msgstr ""
+
+#: functions/theme-customizer.php:47 functions/theme-customizer.php:234
+msgid "Blog Title"
+msgstr ""
+
+#: functions/theme-customizer.php:58
+msgid "Copyright text"
+msgstr ""
+
+#: functions/theme-customizer.php:68
+msgid "Footer Description"
+msgstr ""
+
+#: functions/theme-customizer.php:79
+msgid "Twitter URL"
+msgstr ""
+
+#: functions/theme-customizer.php:90
+msgid "Facebook URL"
+msgstr ""
+
+#: functions/theme-customizer.php:101
+msgid "YouTube URL"
+msgstr ""
+
+#: functions/theme-customizer.php:112
+msgid "Pinterest URL"
+msgstr ""
+
+#: functions/theme-customizer.php:123
+msgid "RSS Feed URL"
+msgstr ""
+
+#: functions/theme-customizer.php:135
+msgid "Slider Title"
+msgstr ""
+
+#: functions/theme-customizer.php:144
+msgid "Slider Subtitle"
+msgstr ""
+
+#: functions/theme-customizer.php:153
+msgid "Slider Class (fa-fa-user)"
+msgstr ""
+
+#: functions/theme-customizer.php:163
+msgid "Slider Button title"
+msgstr ""
+
+#: functions/theme-customizer.php:173
+msgid "Slider Button Link"
+msgstr ""
+
+#: functions/theme-customizer.php:182
+msgid "Background Image (Recommended size 1280 x 853)"
+msgstr ""
+
+#: functions/theme-customizer.php:194
+msgid "About Title"
+msgstr ""
+
+#: functions/theme-customizer.php:203
+msgid "About Subtitle"
+msgstr ""
+
+#: functions/theme-customizer.php:212
+msgid "About Info"
+msgstr ""
+
+#: functions/theme-customizer.php:221
+msgid "Image (Recommended size 500 x 500)"
+msgstr ""
+
+#: functions/theme-customizer.php:245
+msgid "Blog Subtitle"
+msgstr ""
+
+#: functions/theme-customizer.php:256
+msgid "Select Category"
+msgstr ""
+
+#: functions/theme-default-setup.php:7
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions/theme-default-setup.php:9
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions/theme-default-setup.php:29
+msgid "By : "
+msgstr ""
+
+#: functions/theme-default-setup.php:31
+msgid "Category : "
+msgstr ""
+
+#: functions/theme-default-setup.php:32
+msgid "Tags : "
+msgstr ""
+
+#: functions/theme-default-setup.php:34
+msgid "Comment : 0"
+msgstr ""
+
+#: functions/theme-default-setup.php:34
+msgid "Comment : 1"
+msgstr ""
+
+#: functions/theme-default-setup.php:34
+msgid "Comments : %"
+msgstr ""
+
+#: functions/theme-default-setup.php:49
+msgctxt "comment form placeholder"
+msgid "Name *"
+msgstr ""
+
+#: functions/theme-default-setup.php:61
+msgctxt "comment form placeholder"
+msgid "Email Id *"
+msgstr ""
+
+#: functions/theme-default-setup.php:72
+msgctxt "comment form placeholder"
+msgid "Website URL"
+msgstr ""
+
+#: functions/theme-default-setup.php:87
+msgctxt "comment form placeholder"
+msgid "Comment"
+msgstr ""
+
+#: home_header.php:55
+msgid "hello"
+msgstr ""
+
+#: home_header.php:58
+msgid "I'm ellen holgate & I sew stuff"
+msgstr ""
+
+#: home_header.php:62
+msgid "see what I can offer you"
+msgstr ""
+
+#: index.php:13
+msgid "My Blog"
+msgstr ""
+
+#: page.php:32 single.php:32
+msgid "Pages:"
+msgstr ""
+
+#: search.php:8
+msgid "Search results for"
+msgstr ""
+
+#: search.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: tag.php:9
+msgid "Tags"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tailor"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fasterthemes.com/wordpress-themes/tailor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tailor is a premium quality WordPress theme developed mainly for tailoring "
+"business but this can be used for any tailor business. Tailor theme is very "
+"easy to use and customize. It is mobile friendly , SEO and speed optimized "
+"for fast loading."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "FasterThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fasterthemes.com/"
+msgstr ""

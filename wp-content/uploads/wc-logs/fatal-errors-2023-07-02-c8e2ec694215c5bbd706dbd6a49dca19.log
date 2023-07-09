@@ -1,0 +1,2 @@
+2023-07-02T13:39:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4669440 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 237
+
