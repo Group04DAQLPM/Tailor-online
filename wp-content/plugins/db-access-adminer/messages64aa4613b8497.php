@@ -6,7 +6,7 @@ return array (
     0 => 'You must be %1$slogged in to WordPress%2$s and possess the %3$s capability to use this tool.',
     1 => 
     array (
-      0 => '<a href="http://localhost/wordpress_main/wp-admin/" target="_blank">',
+      0 => '<a href="http://localhost/Tailor-online/wp-admin/" target="_blank">',
       1 => '</a>',
       2 => '<code>edit_plugins</code>',
     ),
@@ -16,7 +16,7 @@ return array (
     0 => 'Ensure you have completed %sAdminer setup%s and addressed missing requirements, if any.',
     1 => 
     array (
-      0 => '<a href="http://localhost/wordpress_main/wp-admin/options-general.php?page=db-access-adminer-options" target="_blank">',
+      0 => '<a href="http://localhost/Tailor-online/wp-admin/options-general.php?page=db-access-adminer-options" target="_blank">',
       1 => '</a>',
     ),
   ),
@@ -29,7 +29,7 @@ return array (
     0 => 'Could not load one or more ephemeral files from WordPress. The plugin may not be %sset up%s correctly.',
     1 => 
     array (
-      0 => '<a href="http://localhost/wordpress_main/wp-admin/options-general.php?page=db-access-adminer-options" target="_blank">',
+      0 => '<a href="http://localhost/Tailor-online/wp-admin/options-general.php?page=db-access-adminer-options" target="_blank">',
       1 => '</a>',
     ),
   ),

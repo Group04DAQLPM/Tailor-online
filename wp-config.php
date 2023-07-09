@@ -85,7 +85,7 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'WP_SITEURL', 'http://localhost/wordpress_main/' );
+define( 'WP_SITEURL', 'http://localhost/Tailor-online/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
