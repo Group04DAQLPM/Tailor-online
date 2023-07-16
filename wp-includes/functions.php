@@ -8465,3 +8465,112 @@ function is_php_version_compatible( $required ) {
 function wp_fuzzy_number_match( $expected, $actual, $precision = 1 ) {
 	return abs( (float) $expected - (float) $actual ) <= $precision;
 }
+
+
+
+// Thêm endpoint vào trang My Account
+function custom_myaccount_endpoint() {
+    add_rewrite_endpoint( 'so-do', EP_ROOT | EP_PAGES );
+}
+
+add_action( 'init', 'custom_myaccount_endpoint' );
+
+// Thêm mục "Số đo" vào menu My Account
+function custom_myaccount_menu_items( $items ) {
+    // Di chuyển mục "Số đo" đến sau mục "Đăng xuất"
+    $logout = $items['customer-logout'];
+    unset( $items['customer-logout'] );
+    $items['so-do'] = 'Số đo';
+    $items['customer-logout'] = $logout;
+    return $items;
+}
+
+add_filter( 'woocommerce_account_menu_items', 'custom_myaccount_menu_items' );
+
+
+
+// Hiển thị nội dung cho endpoint "Số đo"
+function custom_myaccount_endpoint_content() {
+    $current_user_id = get_current_user_id();
+
+	
+
+    // Lấy giá trị của các trường số đo từ user meta
+    $so_do_1 = get_user_meta( $current_user_id, 'so_do_1', true );
+    $so_do_2 = get_user_meta( $current_user_id, 'so_do_2', true );
+    $so_do_3 = get_user_meta( $current_user_id, 'so_do_3', true );
+
+    // Tạo trường số đo nếu chưa tồn tại trong cơ sở dữ liệu
+    if ( empty( $so_do_1 ) ) {
+        add_user_meta( $current_user_id, 'so_do_1', '', true );
+        $so_do_1 = '';
+    }
+    if ( empty( $so_do_2 ) ) {
+        add_user_meta( $current_user_id, 'so_do_2', '', true );
+        $so_do_2 = '';
+    }
+    if ( empty( $so_do_3 ) ) {
+        add_user_meta( $current_user_id, 'so_do_3', '', true );
+        $so_do_3 = '';
+    }
+
+    // Hiển thị form số đo
+    echo '<h2>Số đo của bạn</h2>';
+
+    echo '<form method="post" action="">';
+
+    woocommerce_form_field( 'so_do_1', array(
+        'type'        => 'select',
+        'label'       => 'Số đo 1',
+        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $so_do_1);
+
+    woocommerce_form_field( 'so_do_2', array(
+        'type'        => 'select',
+        'label'       => 'Số đo 2',
+        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $so_do_2 );
+
+    woocommerce_form_field( 'so_do_3', array(
+        'type'        => 'select',
+        'label'       => 'Số đo 3',
+        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $so_do_3 );
+
+    echo '<button type="submit" class="button">Lưu Thay Đổi</button>';
+    echo '</form>';
+}
+add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_content' );
+
+// Lưu giá trị của các trường số đo
+function custom_myaccount_endpoint_save_fields() {
+    $current_user_id = get_current_user_id();
+
+    if ( isset( $_POST['so_do_1'] ) ) {
+        $so_do_1 = sanitize_text_field( $_POST['so_do_1'] );
+        update_user_meta( $current_user_id, 'so_do_1', $so_do_1 );
+    }
+
+    if ( isset( $_POST['so_do_2'] ) ) {
+        $so_do_2 = sanitize_text_field( $_POST['so_do_2'] );
+        update_user_meta( $current_user_id, 'so_do_2', $so_do_2 );
+    }
+
+    if ( isset( $_POST['so_do_3'] ) ) {
+        $so_do_3 = sanitize_text_field( $_POST['so_do_3'] );
+        update_user_meta( $current_user_id, 'so_do_3', $so_do_3 );
+    }
+}
+add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_save_fields' );
+
+
+

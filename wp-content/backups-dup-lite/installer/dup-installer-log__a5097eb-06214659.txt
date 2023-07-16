@@ -1,6 +1,6 @@
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-0 START @ 05:27:27
+* STEP-0 START @ 06:26:05
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
@@ -77,7 +77,7 @@ PLUGIN [SLUG:woo-cart-abandonment-recovery/woo-cart-abandonment-recovery.php][ON
 PLUGIN [SLUG:wp-dbmanager/wp-dbmanager.php                     ][ON:true ]  WP-DBManager
 
 ********************************************************************************
-LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.03209]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.62605]  MESSAGE:END RENDER PAGE
 LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 
 -------------------------
@@ -87,13 +87,13 @@ AJAX ACTION [sparam_s1] SUCCESS
 
 LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 STEP ACTION: "on-validate"
-LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.92088]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.91315]  MESSAGE:END RENDER PAGE
 LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [validate] START
 START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
-LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Archive Check" RESULT: passed
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Archive Check" RESULT: passed
 
 START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
@@ -102,7 +102,7 @@ START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
 
 START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
 
 START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
@@ -114,31 +114,31 @@ START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extr
 LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
 
 START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
 
 START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
 LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
 
 START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
-LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Package Size" RESULT: good
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Package Size" RESULT: good
 
 START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
-LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
 
 START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
-LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
 
 START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
-LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Siteground" RESULT: skip
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Siteground" RESULT: skip
 
 START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-LOG-TIME[DELTA:   0.12227]  MESSAGE:TEST "Addon Sites" RESULT: good
+LOG-TIME[DELTA:   0.23053]  MESSAGE:TEST "Addon Sites" RESULT: good
 
 START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
-LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Wordfence" RESULT: good
+LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Wordfence" RESULT: good
 
 START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
 LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
@@ -153,7 +153,7 @@ START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
 LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
 
 START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
 
 START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
 LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
@@ -165,67 +165,67 @@ START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
 
 START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
-LOG-TIME[DELTA:   0.01449]  MESSAGE:TEST "Disk Space" RESULT: good
+LOG-TIME[DELTA:   0.01506]  MESSAGE:TEST "Disk Space" RESULT: good
 
 START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
-LOG-TIME[DELTA:   0.07100]  MESSAGE:TEST "Permissions: General" RESULT: passed
+LOG-TIME[DELTA:   0.06791]  MESSAGE:TEST "Permissions: General" RESULT: passed
 
 START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
-LOG-TIME[DELTA:   0.00121]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+LOG-TIME[DELTA:   0.00102]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
 
 START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
-LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
 
 START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
-LOG-TIME[DELTA:   0.00235]  MESSAGE:TEST "Host Connection" RESULT: passed
+LOG-TIME[DELTA:   0.00384]  MESSAGE:TEST "Host Connection" RESULT: passed
 
 START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
-LOG-TIME[DELTA:   0.00174]  MESSAGE:TEST "Database Version" RESULT: passed
+LOG-TIME[DELTA:   0.00210]  MESSAGE:TEST "Database Version" RESULT: passed
 
 START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
 
 START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
-LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Database Engine Support" RESULT: passed
 
 START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
-LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
 
 START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
-LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+LOG-TIME[DELTA:   0.00028]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
 
 START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
 
 START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
-LOG-TIME[DELTA:   0.00328]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+LOG-TIME[DELTA:   0.00327]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
 
 START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
-LOG-TIME[DELTA:   0.00227]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+LOG-TIME[DELTA:   0.00152]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
 
 START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
-LOG-TIME[DELTA:   0.21811]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+LOG-TIME[DELTA:   0.05293]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
 
 START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
-LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
 
 START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
 
 START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
-LOG-TIME[DELTA:   0.00117]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+LOG-TIME[DELTA:   0.00133]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
 
 START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
 LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
 
 START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
-LOG-TIME[DELTA:   0.00048]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
 
 START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
-LOG-TIME[DELTA:   0.00222]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+LOG-TIME[DELTA:   0.00432]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
 
 START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
-LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Prefix too long" RESULT: passed
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Prefix too long" RESULT: passed
 
 START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
 LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
@@ -259,7 +259,7 @@ PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-1 START @ 05:28:13
+* STEP-1 START @ 06:26:35
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -317,7 +317,7 @@ MAINTENANCE MODE ENABLE
 *** CREATE FOLDER AND PERMISSION PREPARE
 FOLDER PREPARE DONE
 ARCHIVE OFFSET 0
-CHUNK COMPLETE - RUNTIME: 5.0905 sec. - Files processed: 2 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0096 sec. - Files processed: 2,869 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -326,11 +326,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 2
+ARCHIVE OFFSET 2869
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0168 sec. - Files processed: 3,200 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0138 sec. - Files processed: 3,615 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -339,11 +339,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 3200
+ARCHIVE OFFSET 3615
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0303 sec. - Files processed: 4,244 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0173 sec. - Files processed: 4,469 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -352,11 +352,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 4244
+ARCHIVE OFFSET 4469
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0145 sec. - Files processed: 4,869 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0294 sec. - Files processed: 5,156 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -365,11 +365,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 4869
+ARCHIVE OFFSET 5156
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0268 sec. - Files processed: 5,658 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0339 sec. - Files processed: 5,694 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -378,11 +378,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 5658
+ARCHIVE OFFSET 5694
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0136 sec. - Files processed: 6,356 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0245 sec. - Files processed: 6,237 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -391,11 +391,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 6356
+ARCHIVE OFFSET 6237
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0250 sec. - Files processed: 7,072 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0175 sec. - Files processed: 6,912 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -404,11 +404,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 7072
+ARCHIVE OFFSET 6912
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0304 sec. - Files processed: 7,687 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0199 sec. - Files processed: 7,462 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -417,11 +417,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 7687
+ARCHIVE OFFSET 7462
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0185 sec. - Files processed: 8,326 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0346 sec. - Files processed: 7,979 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -430,11 +430,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 8326
+ARCHIVE OFFSET 7979
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0205 sec. - Files processed: 8,894 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0179 sec. - Files processed: 8,505 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -443,11 +443,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 8894
+ARCHIVE OFFSET 8505
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0192 sec. - Files processed: 9,659 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0220 sec. - Files processed: 9,050 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -456,11 +456,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 9659
+ARCHIVE OFFSET 9050
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0319 sec. - Files processed: 10,457 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0326 sec. - Files processed: 9,696 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -469,11 +469,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 10457
+ARCHIVE OFFSET 9696
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0171 sec. - Files processed: 10,996 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0198 sec. - Files processed: 10,396 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -482,11 +482,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 10996
+ARCHIVE OFFSET 10396
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0235 sec. - Files processed: 11,656 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0199 sec. - Files processed: 10,878 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -495,11 +495,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 11656
+ARCHIVE OFFSET 10878
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0169 sec. - Files processed: 12,595 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0590 sec. - Files processed: 11,394 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -508,11 +508,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 12595
+ARCHIVE OFFSET 11394
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0218 sec. - Files processed: 13,375 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0178 sec. - Files processed: 12,070 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -521,11 +521,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 13375
+ARCHIVE OFFSET 12070
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0318 sec. - Files processed: 14,084 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0185 sec. - Files processed: 12,877 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -534,11 +534,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 14084
+ARCHIVE OFFSET 12877
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0199 sec. - Files processed: 14,780 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0194 sec. - Files processed: 13,535 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -547,11 +547,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 14780
+ARCHIVE OFFSET 13535
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0535 sec. - Files processed: 15,378 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0224 sec. - Files processed: 14,204 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -560,11 +560,11 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 15378
+ARCHIVE OFFSET 14204
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0107 sec. - Files processed: 16,452 of 17,157
+CHUNK COMPLETE - RUNTIME: 5.0177 sec. - Files processed: 14,772 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -573,7 +573,46 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 16452
+ARCHIVE OFFSET 14772
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0207 sec. - Files processed: 15,363 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15363
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0223 sec. - Files processed: 15,859 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15859
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0135 sec. - Files processed: 16,771 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16771
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
 --------------------------------------
@@ -581,7 +620,7 @@ FILE EXTRACTION: done processing last file in list of 17762
 
 EXTRACTION: ZIP CHUNKING >>> DONE
 
-EXTRACTION COMPLETE @ 05:30:09 - RUNTIME: 115.7994 sec. - Files processed: 17,157 of 17,157
+EXTRACTION COMPLETE @ 06:28:52 - RUNTIME: 137.2902 sec. - Files processed: 17,157 of 17,157
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -595,7 +634,7 @@ ADD PREFIX META MAP ID 0 wpkh_
 
 ********************************************************************************
 * DUPLICATOR LITE: INSTALL-LOG
-* STEP-2 START @ 05:30:11
+* STEP-2 START @ 06:28:54
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -802,7 +841,7 @@ AJAX ACTION [dbinstall] START
 --------------------------------------
 ** DATABASE CHUNK install start
 --------------------------------------
-DATABASE CHUNK SEEK POSITION: 1871826
+DATABASE CHUNK SEEK POSITION: 176902
 Auto Commit set to false successfully
 NO TABLE TO SKIP
 Auto Commit set to true successfully
@@ -819,7 +858,7 @@ AJAX ACTION [dbinstall] START
 --------------------------------------
 ** DATABASE CHUNK install start
 --------------------------------------
-DATABASE CHUNK SEEK POSITION: 17742476
+DATABASE CHUNK SEEK POSITION: 9724118
 Auto Commit set to false successfully
 NO TABLE TO SKIP
 Auto Commit set to true successfully
@@ -901,8 +940,8 @@ TABLE "wpkh_wpforms_payment_meta"_______________________[ROWS:     0]
 TABLE "wpkh_wpforms_payments"___________________________[ROWS:     0]
 TABLE "wpkh_wpforms_tasks_meta"_________________________[ROWS:     5]
 
-INSERT DATA RUNTIME: 12.5630 sec.
-STEP-2 COMPLETE @ 05:30:23 - RUNTIME: 12.5640 sec.
+INSERT DATA RUNTIME: 16.1436 sec.
+STEP-2 COMPLETE @ 06:29:10 - RUNTIME: 16.1446 sec.
 AJAX ACTION [dbinstall] SUCCESS
 -------------------------
 
@@ -924,7 +963,7 @@ CHUNK ACTION: CURRENT [start][][]
 
 ********************************************************************************
 DUPLICATOR LITE: INSTALL-LOG
-STEP-3 START @ 05:30:24
+STEP-3 START @ 06:29:11
 NOTICE: Do NOT post to public sites or forums
 ********************************************************************************
 CHARSET SERVER:	"utf8"
@@ -1274,7 +1313,7 @@ EVALUATE TABLE: "wpkh_wpforms_tasks_meta"_________________________[ROWS:     5][
 SCANNED:	Tables:67 	|	 Rows:10610 	|	 Cells:61115 
 UPDATED:	Tables:7 	|	 Rows:752 	|	 Cells:814 
 ERRORS:		0 
-RUNTIME:	3.400200 sec
+RUNTIME:	3.434600 sec
 CHUNK ACTION: CURRENT [rem_maintenance][][]
 
 ====================================
@@ -1365,7 +1404,7 @@ CHUNK ACTION: CURRENT [final_report][][]
 FINAL REPORT NOTICES
 ====================================
 
-STEP-3 COMPLETE @ 05:30:28 - RUNTIME: 3.8347 sec. 
+STEP-3 COMPLETE @ 06:29:15 - RUNTIME: 3.9536 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1391,4 +1430,4 @@ LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] 
 FINAL REPORT NOTICES LIST
 ====================================
 ====================================
-LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.22354]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.17379]  MESSAGE:END RENDER PAGE

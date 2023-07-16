@@ -180,3 +180,17 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+
+
+function custom_woocommerce_homepage() {
+    if ( is_front_page() ) {
+        // ID của trang homepage tùy chỉnh của bạn
+        $homepage_id = 4387;
+
+        // Thiết lập trang homepage tùy chỉnh
+        update_option( 'page_on_front', $homepage_id );
+        update_option( 'show_on_front', 'page' );
+    }
+}
+add_action( 'wp', 'custom_woocommerce_homepage' );
