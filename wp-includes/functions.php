@@ -8502,22 +8502,22 @@ function custom_myaccount_endpoint_content() {
 
     // Tạo trường số đo nếu chưa tồn tại trong cơ sở dữ liệu
     if ( empty( $so_do_1 ) ) {
-        add_user_meta( $current_user_id, 'so_do_1', '', true );
-        $so_do_1 = '';
+        add_user_meta( $current_user_id, 'so_do_1', 0, true );
+        $so_do_1 = 0;
     }
     if ( empty( $so_do_2 ) ) {
-        add_user_meta( $current_user_id, 'so_do_2', '', true );
-        $so_do_2 = '';
+        add_user_meta( $current_user_id, 'so_do_2', 0, true );
+        $so_do_2 = 0;
     }
     if ( empty( $so_do_3 ) ) {
-        add_user_meta( $current_user_id, 'so_do_3', '', true );
-        $so_do_3 = '';
+        add_user_meta( $current_user_id, 'so_do_3', 0, true );
+        $so_do_3 = 0;
     }
 
     // Hiển thị form số đo
     echo '<h2>Số đo của bạn</h2>';
 
-    echo '<form method="post" action="">';
+    echo '<form method="post" action="" id="so-do-form">';
 
     woocommerce_form_field( 'so_do_1', array(
         'type'        => 'select',
@@ -8548,6 +8548,31 @@ function custom_myaccount_endpoint_content() {
 
     echo '<button type="submit" class="button">Lưu Thay Đổi</button>';
     echo '</form>';
+
+	// Đoạn mã JavaScript để xử lý AJAX và reload trang
+    echo '<script>
+        jQuery(document).ready(function($) {
+            // Lắng nghe sự kiện submit của form có id là "so-do-form"
+            $("#so-do-form").on("submit", function(e) {
+                e.preventDefault(); // Ngăn chặn hành vi submit mặc định của form
+                var formData = $(this).serialize(); // Lấy dữ liệu của form
+
+                // Gửi dữ liệu bằng AJAX
+                $.ajax({
+                    type: "POST",
+                    url: window.location.href, // Gửi dữ liệu về cùng URL hiện tại
+                    data: formData,
+                    success: function() {
+                        // Reload trang sau khi dữ liệu được gửi thành công
+                        location.reload();
+                    },
+                    error: function() {
+                        alert("Có lỗi xảy ra. Vui lòng thử lại sau.");
+                    },
+                });
+            });
+        });
+    </script>';
 }
 add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_content' );
 
@@ -8574,3 +8599,127 @@ add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_sav
 
 
 
+function add_to_cart_popup_script() {
+    ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Lấy thẻ nút "Add to Cart" trên trang sản phẩm của WooCommerce
+        var addToCartButton = document.querySelector('.single_add_to_cart_button');
+        
+        // Xử lý sự kiện khi nhấn nút "Add to Cart"
+        addToCartButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của nút "Add to Cart"
+
+				// Lấy giá trị từ usermeta
+				var so_do_1 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_1', true)); ?>';
+				var so_do_2 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_2', true)); ?>';
+				var so_do_3 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_3', true)); ?>';
+				console.log(so_do_1);
+				console.log(so_do_2);
+				console.log(so_do_3);
+				// Gán giá trị mặc định cho các trường selection trong popup
+				document.getElementById('wpforms-4797-field_1').value = so_do_1;
+				document.getElementById('wpforms-4797-field_2').value = so_do_2;
+				document.getElementById('wpforms-4797-field_3').value = so_do_3;
+
+            // Hiển thị popup
+            var popupId = '4811'; // Thay thế 'replace-with-popup-id' bằng ID của popup bạn đã tạo bằng plugin "Popup Maker"
+            PUM.open(popupId);
+        });
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'add_to_cart_popup_script');
+
+
+
+// Đoạn mã này thêm một action vào hook wp_footer để thực thi mã JavaScript khi trang web được tải
+function add_custom_script_to_footer() {
+    ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            // Gán sự kiện click vào nút submit của popup
+            $('#wpforms-submit-<?php echo esc_js(4797); ?>').on('click', function(e) {
+                // e.preventDefault(); // Ngăn chặn hành vi mặc định của nút submits
+
+
+                // Lấy giá trị từ 3 trường selection
+                var selection1 = $('#wpforms-4797-field_1').val();
+                var selection2 = $('#wpforms-4797-field_2').val();
+                var selection3 = $('#wpforms-4797-field_3').val();
+
+				var product_id = <?php echo get_the_ID(); ?>;
+				//Lấy số lượng từ trang sản phẩm
+				
+                var quantity = document.getElementsByName("quantity")[0].value; // Sử dụng ID của trường số lượng (quantity) của sản phẩm
+                console.log(quantity);
+				if (isNaN(quantity) || quantity < 1) {
+                    quantity = 1; // Nếu số lượng không hợp lệ, đặt mặc định là 1
+                }
+				
+
+                // Gửi dữ liệu thông qua AJAX request đến một endpoint xử lý
+                $.ajax({
+                    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                    type: 'POST',
+                    data: {
+                        action: 'save_selection_to_user_meta', // Tên action để xử lý AJAX request
+						product_id: product_id,
+						quantity: quantity,
+                        selection1: selection1,
+                        selection2: selection2,
+                        selection3: selection3
+                    },
+                    success: function(response) {
+                        // Xử lý phản hồi từ server (nếu cần)
+                        console.log(response);
+						// Đóng popup
+                        $('4811').fadeOut(); // Thay "your-popup-class" bằng class của popup của bạn
+
+                        // Load lại trang sau khi xử lý thành công
+                        location.reload();
+                    }
+                });
+            });
+        });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'add_custom_script_to_footer');
+
+// Đoạn mã này thêm một action vào hook wp_ajax_nopriv_save_selection_to_user_meta và wp_ajax_save_selection_to_user_meta để xử lý AJAX request
+function save_selection_to_user_meta() {
+    if (isset($_POST['quantity']) && isset($_POST['product_id']) && isset($_POST['selection1']) && isset($_POST['selection2']) && isset($_POST['selection3'])) {
+		$product_id = intval($_POST['product_id']);
+        $quantity = intval($_POST['quantity']);
+        $selection1 = sanitize_text_field($_POST['selection1']);
+        $selection2 = sanitize_text_field($_POST['selection2']);
+        $selection3 = sanitize_text_field($_POST['selection3']);
+
+        // Lưu dữ liệu vào user meta
+        update_user_meta(get_current_user_id(), 'so_do_1', $selection1);
+        update_user_meta(get_current_user_id(), 'so_do_2', $selection2);
+        update_user_meta(get_current_user_id(), 'so_do_3', $selection3);
+
+		// Thêm sản phẩm vào giỏ hàng
+        WC()->cart->add_to_cart($product_id, $quantity, 0, array(), array(
+            'measurement1' => $selection1,
+            'measurement2' => $selection2,
+            'measurement3' => $selection3,
+        ));
+    }
+    wp_die();
+}
+add_action('wp_ajax_nopriv_save_selection_to_user_meta', 'save_selection_to_user_meta');
+add_action('wp_ajax_save_selection_to_user_meta', 'save_selection_to_user_meta');
+
+
+// // Hàm này thêm sản phẩm vào giỏ hàng với các giá trị selection đã lưu trong session
+// function add_product_to_cart_with_selection($cart_item_data, $product_id) {
+//     if ($selection_data = WC()->session->get('product_selection_' . $product_id)) {
+//         $cart_item_data['selection_data'] = $selection_data;
+//     }
+//     return $cart_item_data;
+// }
+// add_filter('woocommerce_add_cart_item_data', 'add_product_to_cart_with_selection', 10, 2);
