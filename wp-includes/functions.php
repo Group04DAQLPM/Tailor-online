@@ -8496,55 +8496,160 @@ function custom_myaccount_endpoint_content() {
 	
 
     // Lấy giá trị của các trường số đo từ user meta
-    $so_do_1 = get_user_meta( $current_user_id, 'so_do_1', true );
-    $so_do_2 = get_user_meta( $current_user_id, 'so_do_2', true );
-    $so_do_3 = get_user_meta( $current_user_id, 'so_do_3', true );
+    $vong_nguc = get_user_meta( $current_user_id, 'vong_nguc', true );
+    $vong_eo = get_user_meta( $current_user_id, 'vong_eo', true );
+    $vong_hong = get_user_meta( $current_user_id, 'vong_hong', true );
+	$ba_vai = get_user_meta( $current_user_id, 'ba_vai', true );
+	$dai_ao = get_user_meta( $current_user_id, 'dai_ao', true );
+	$dai_quan = get_user_meta( $current_user_id, 'dai_quan', true );
+	$bap_chan = get_user_meta( $current_user_id, 'bap_chan', true );
+	$co_ao = get_user_meta( $current_user_id, 'co_ao', true );
+	$co_tay_ao = get_user_meta( $current_user_id, 'co_tay_ao', true );
+	$dau_goi = get_user_meta( $current_user_id, 'dau_goi', true );
+	$co_chan = get_user_meta( $current_user_id, 'co_chan', true );
 
     // Tạo trường số đo nếu chưa tồn tại trong cơ sở dữ liệu
-    if ( empty( $so_do_1 ) ) {
-        add_user_meta( $current_user_id, 'so_do_1', 0, true );
-        $so_do_1 = 0;
+    if ( empty( $vong_nguc ) ) {
+        add_user_meta( $current_user_id, 'vong_nguc', 0, true );
+        $vong_nguc = 0;
     }
-    if ( empty( $so_do_2 ) ) {
-        add_user_meta( $current_user_id, 'so_do_2', 0, true );
-        $so_do_2 = 0;
+    if ( empty( $vong_eo ) ) {
+        add_user_meta( $current_user_id, 'vong_eo', 0, true );
+        $vong_eo = 0;
     }
-    if ( empty( $so_do_3 ) ) {
-        add_user_meta( $current_user_id, 'so_do_3', 0, true );
-        $so_do_3 = 0;
+    if ( empty( $vong_hong ) ) {
+        add_user_meta( $current_user_id, 'vong_hong', 0, true );
+        $vong_hong = 0;
     }
+	if ( empty( $ba_vai ) ) {
+        add_user_meta( $current_user_id, 'ba_vai', 0, true );
+        $ba_vai = 0;
+    }
+	if ( empty( $dai_ao ) ) {
+        add_user_meta( $current_user_id, 'dai_ao', 0, true );
+        $dai_ao = 0;
+    }
+    if ( empty( $dai_quan ) ) {
+        add_user_meta( $current_user_id, 'dai_quan', 0, true );
+        $dai_quan = 0;
+    }
+    if ( empty( $bap_chan ) ) {
+        add_user_meta( $current_user_id, 'bap_chan', 0, true );
+        $bap_chan = 0;
+    }
+	if ( empty( $co_ao ) ) {
+        add_user_meta( $current_user_id, 'co_ao', 0, true );
+        $co_ao = 0;
+    }
+	if ( empty( $co_tay_ao ) ) {
+        add_user_meta( $current_user_id, 'co_tay_ao', 0, true );
+        $co_tay_ao = 0;
+    }
+    if ( empty( $dau_goi ) ) {
+        add_user_meta( $current_user_id, 'dau_goi', 0, true );
+        $dau_goi = 0;
+    }
+    if ( empty( $co_chan ) ) {
+        add_user_meta( $current_user_id, 'co_chan', 0, true );
+        $co_chan = 0;
+    }
+	
 
     // Hiển thị form số đo
     echo '<h2>Số đo của bạn</h2>';
 
     echo '<form method="post" action="" id="so-do-form">';
 
-    woocommerce_form_field( 'so_do_1', array(
+    woocommerce_form_field( 'vong_nguc', array(
         'type'        => 'select',
-        'label'       => 'Số đo 1',
-        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'label'       => 'Vòng Ngực',
+        'options'     => array_combine( range( 80, 100 ), range( 80, 100 ) ),
         'required'    => false,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
-    ), $so_do_1);
+    ), $vong_nguc);
 
-    woocommerce_form_field( 'so_do_2', array(
+    woocommerce_form_field( 'vong_eo', array(
         'type'        => 'select',
-        'label'       => 'Số đo 2',
-        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'label'       => 'Vòng eo',
+        'options'     => array_combine( range( 60, 80 ), range( 60, 80 ) ),
         'required'    => false,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
-    ), $so_do_2 );
+    ), $vong_eo );
 
-    woocommerce_form_field( 'so_do_3', array(
+    woocommerce_form_field( 'vong_hong', array(
         'type'        => 'select',
-        'label'       => 'Số đo 3',
-        'options'     => array_combine( range( 25, 35 ), range( 25, 35 ) ),
+        'label'       => 'Số đo vòng hông',
+        'options'     => array_combine( range( 85, 105 ), range( 85, 105 ) ),
         'required'    => false,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
-    ), $so_do_3 );
+    ), $vong_hong );
+	woocommerce_form_field( 'ba_vai', array(
+        'type'        => 'select',
+        'label'       => 'Số đo chiều dài bả vai',
+        'options'     => array_combine( range( 40, 50 ), range( 40, 50 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $ba_vai );
+	woocommerce_form_field( 'dai_ao', array(
+        'type'        => 'select',
+        'label'       => 'Số đo chiều dài tay áo',
+        'options'     => array_combine( range( 55, 65 ), range( 55, 65 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $dai_ao );
+	woocommerce_form_field( 'dai_quan', array(
+        'type'        => 'select',
+        'label'       => 'Số đo chiều dài quần',
+        'options'     => array_combine( range( 95, 110 ), range( 95, 110 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $dai_quan );
+	woocommerce_form_field( 'bap_chan', array(
+        'type'        => 'select',
+        'label'       => 'Số đo bắp chân',
+        'options'     => array_combine( range( 30, 40 ), range( 30, 40 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $bap_chan );
+	woocommerce_form_field( 'co_ao', array(
+        'type'        => 'select',
+        'label'       => 'Số đo cổ áo',
+        'options'     => array_combine( range( 35, 40 ), range( 35, 40 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $co_ao );
+	woocommerce_form_field( 'co_tay_ao', array(
+        'type'        => 'select',
+        'label'       => 'Số đo cổ tay áo',
+        'options'     => array_combine( range( 15, 20 ), range( 15, 20 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $co_tay_ao );
+	woocommerce_form_field( 'dau_goi', array(
+        'type'        => 'select',
+        'label'       => 'Số đo vòng đầu gối',
+        'options'     => array_combine( range( 35, 40 ), range( 35, 40 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $dau_goi );
+	woocommerce_form_field( 'co_chan', array(
+        'type'        => 'select',
+        'label'       => 'Số đo cổ chân',
+        'options'     => array_combine( range( 20, 25 ), range( 20, 25 ) ),
+        'required'    => false,
+        'class'       => array( 'form-row-wide' ),
+        'input_class' => array( 'select' ),
+    ), $co_chan );
 
     echo '<button type="submit" class="button">Lưu Thay Đổi</button>';
     echo '</form>';
@@ -8580,19 +8685,51 @@ add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_con
 function custom_myaccount_endpoint_save_fields() {
     $current_user_id = get_current_user_id();
 
-    if ( isset( $_POST['so_do_1'] ) ) {
-        $so_do_1 = sanitize_text_field( $_POST['so_do_1'] );
-        update_user_meta( $current_user_id, 'so_do_1', $so_do_1 );
+    if ( isset( $_POST['vong_nguc'] ) ) {
+        $vong_nguc = sanitize_text_field( $_POST['vong_nguc'] );
+        update_user_meta( $current_user_id, 'vong_nguc', $vong_nguc );
     }
 
-    if ( isset( $_POST['so_do_2'] ) ) {
-        $so_do_2 = sanitize_text_field( $_POST['so_do_2'] );
-        update_user_meta( $current_user_id, 'so_do_2', $so_do_2 );
+    if ( isset( $_POST['vong_eo'] ) ) {
+        $vong_eo = sanitize_text_field( $_POST['vong_eo'] );
+        update_user_meta( $current_user_id, 'vong_eo', $vong_eo );
     }
 
-    if ( isset( $_POST['so_do_3'] ) ) {
-        $so_do_3 = sanitize_text_field( $_POST['so_do_3'] );
-        update_user_meta( $current_user_id, 'so_do_3', $so_do_3 );
+    if ( isset( $_POST['vong_hong'] ) ) {
+        $vong_hong = sanitize_text_field( $_POST['vong_hong'] );
+        update_user_meta( $current_user_id, 'vong_hong', $vong_hong );
+    }
+	if ( isset( $_POST['ba_vai'] ) ) {
+        $ba_vai = sanitize_text_field( $_POST['ba_vai'] );
+        update_user_meta( $current_user_id, 'ba_vai', $ba_vai );
+    }
+	if ( isset( $_POST['dai_ao'] ) ) {
+        $dai_ao = sanitize_text_field( $_POST['dai_ao'] );
+        update_user_meta( $current_user_id, 'dai_ao', $dai_ao );
+    }
+	if ( isset( $_POST['dai_quan'] ) ) {
+        $dai_quan = sanitize_text_field( $_POST['dai_quan'] );
+        update_user_meta( $current_user_id, 'dai_quan', $dai_quan );
+    }
+	if ( isset( $_POST['bap_chan'] ) ) {
+        $bap_chan = sanitize_text_field( $_POST['bap_chan'] );
+        update_user_meta( $current_user_id, 'bap_chan', $bap_chan );
+    }
+	if ( isset( $_POST['co_ao'] ) ) {
+        $co_ao = sanitize_text_field( $_POST['co_ao'] );
+        update_user_meta( $current_user_id, 'co_ao', $co_ao );
+    }
+	if ( isset( $_POST['co_tay_ao'] ) ) {
+        $co_tay_ao = sanitize_text_field( $_POST['co_tay_ao'] );
+        update_user_meta( $current_user_id, 'co_tay_ao', $co_tay_ao );
+    }
+	if ( isset( $_POST['dau_goi'] ) ) {
+        $dau_goi = sanitize_text_field( $_POST['dau_goi'] );
+        update_user_meta( $current_user_id, 'dau_goi', $dau_goi );
+    }
+	if ( isset( $_POST['co_chan'] ) ) {
+        $co_chan = sanitize_text_field( $_POST['co_chan'] );
+        update_user_meta( $current_user_id, 'co_chan', $co_chan );
     }
 }
 add_action( 'woocommerce_account_so-do_endpoint', 'custom_myaccount_endpoint_save_fields' );
@@ -8608,19 +8745,38 @@ function add_to_cart_popup_script() {
         
         // Xử lý sự kiện khi nhấn nút "Add to Cart"
         addToCartButton.addEventListener('click', function(event) {
-            event.preventDefault(); // Ngăn chặn hành vi mặc định của nút "Add to Cart"
+           		event.preventDefault(); // Ngăn chặn hành vi mặc định của nút "Add to Cart"
 
 				// Lấy giá trị từ usermeta
-				var so_do_1 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_1', true)); ?>';
-				var so_do_2 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_2', true)); ?>';
-				var so_do_3 = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'so_do_3', true)); ?>';
-				console.log(so_do_1);
-				console.log(so_do_2);
-				console.log(so_do_3);
+				var vong_nguc = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'vong_nguc', true)); ?>';
+				var vong_eo = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'vong_eo', true)); ?>';
+				var vong_hong = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'vong_hong', true)); ?>';
+				var ba_vai = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'ba_vai', true)); ?>';
+				var dai_ao = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'dai_ao', true)); ?>';
+				var dai_quan = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'dai_quan', true)); ?>';
+				var bap_chan = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'bap_chan', true)); ?>';
+				var co_ao = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'co_ao', true)); ?>';
+				var co_tay_ao = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'co_tay_ao', true)); ?>';
+				var dau_goi = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'dau_goi', true)); ?>';
+				var co_chan = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'co_chan', true)); ?>';
+				
+
+				console.log(vong_nguc);
+				console.log(vong_eo);
+				console.log(vong_hong);
 				// Gán giá trị mặc định cho các trường selection trong popup
-				document.getElementById('wpforms-4797-field_1').value = so_do_1;
-				document.getElementById('wpforms-4797-field_2').value = so_do_2;
-				document.getElementById('wpforms-4797-field_3').value = so_do_3;
+				document.getElementById('wpforms-4797-field_1').value = vong_nguc;
+				document.getElementById('wpforms-4797-field_2').value = vong_eo;
+				document.getElementById('wpforms-4797-field_3').value = vong_hong;
+				document.getElementById('wpforms-4797-field_5').value = ba_vai;
+				document.getElementById('wpforms-4797-field_6').value = dai_ao;
+				document.getElementById('wpforms-4797-field_7').value = dai_quan;
+				document.getElementById('wpforms-4797-field_8').value = bap_chan;
+				document.getElementById('wpforms-4797-field_9').value = co_ao;
+				document.getElementById('wpforms-4797-field_10').value = co_tay_ao;
+				document.getElementById('wpforms-4797-field_11').value = dau_goi;
+				document.getElementById('wpforms-4797-field_12').value = co_chan;
+
 
             // Hiển thị popup
             var popupId = '4811'; // Thay thế 'replace-with-popup-id' bằng ID của popup bạn đã tạo bằng plugin "Popup Maker"
@@ -8641,13 +8797,22 @@ function add_custom_script_to_footer() {
         jQuery(document).ready(function($) {
             // Gán sự kiện click vào nút submit của popup
             $('#wpforms-submit-<?php echo esc_js(4797); ?>').on('click', function(e) {
-                // e.preventDefault(); // Ngăn chặn hành vi mặc định của nút submits
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của nút submits
 
 
                 // Lấy giá trị từ 3 trường selection
-                var selection1 = $('#wpforms-4797-field_1').val();
-                var selection2 = $('#wpforms-4797-field_2').val();
-                var selection3 = $('#wpforms-4797-field_3').val();
+                var vong_nguc = $('#wpforms-4797-field_1').val();
+                var vong_eo = $('#wpforms-4797-field_2').val();
+                var vong_hong = $('#wpforms-4797-field_3').val();
+				var ba_vai = $('#wpforms-4797-field_5').val();
+				var dai_ao = $('#wpforms-4797-field_6').val();
+				var dai_quan = $('#wpforms-4797-field_7').val();
+				var bap_chan = $('#wpforms-4797-field_8').val();
+				var co_ao = $('#wpforms-4797-field_9').val();
+				var co_tay_ao = $('#wpforms-4797-field_10').val();
+				var dau_goi = $('#wpforms-4797-field_11').val();
+				var co_chan = $('#wpforms-4797-field_12').val();
+				
 
 				var product_id = <?php echo get_the_ID(); ?>;
 				//Lấy số lượng từ trang sản phẩm
@@ -8667,9 +8832,17 @@ function add_custom_script_to_footer() {
                         action: 'save_selection_to_user_meta', // Tên action để xử lý AJAX request
 						product_id: product_id,
 						quantity: quantity,
-                        selection1: selection1,
-                        selection2: selection2,
-                        selection3: selection3
+                        vong_nguc: vong_nguc,
+                        vong_eo: vong_eo,
+                        vong_hong: vong_hong,
+						ba_vai: ba_vai,
+						dai_ao: dai_ao,
+						dai_quan: dai_quan,
+						bap_chan: bap_chan,
+						co_ao: co_ao,
+						co_tay_ao: co_tay_ao,
+						dau_goi: dau_goi,
+						co_chan: co_chan
                     },
                     success: function(response) {
                         // Xử lý phản hồi từ server (nếu cần)
@@ -8690,23 +8863,60 @@ add_action('wp_footer', 'add_custom_script_to_footer');
 
 // Đoạn mã này thêm một action vào hook wp_ajax_nopriv_save_selection_to_user_meta và wp_ajax_save_selection_to_user_meta để xử lý AJAX request
 function save_selection_to_user_meta() {
-    if (isset($_POST['quantity']) && isset($_POST['product_id']) && isset($_POST['selection1']) && isset($_POST['selection2']) && isset($_POST['selection3'])) {
+    if (isset($_POST['quantity']) 
+	&& isset($_POST['product_id']) 
+	&& isset($_POST['vong_nguc']) 
+	&& isset($_POST['vong_eo']) 
+	&& isset($_POST['vong_hong'])
+	&& isset($_POST['ba_vai'])
+	&& isset($_POST['dai_ao'])
+	&& isset($_POST['dai_quan'])
+	&& isset($_POST['bap_chan'])
+	&& isset($_POST['co_ao'])
+	&& isset($_POST['co_tay_ao'])
+	&& isset($_POST['dau_goi'])
+	&& isset($_POST['co_chan'])
+	) {
 		$product_id = intval($_POST['product_id']);
         $quantity = intval($_POST['quantity']);
-        $selection1 = sanitize_text_field($_POST['selection1']);
-        $selection2 = sanitize_text_field($_POST['selection2']);
-        $selection3 = sanitize_text_field($_POST['selection3']);
+        $vong_nguc = sanitize_text_field($_POST['vong_nguc']);
+        $vong_eo = sanitize_text_field($_POST['vong_eo']);
+        $vong_hong = sanitize_text_field($_POST['vong_hong']);
+		$ba_vai = sanitize_text_field($_POST['ba_vai']);
+		$dai_ao = sanitize_text_field($_POST['dai_ao']);
+		$dai_quan = sanitize_text_field($_POST['dai_quan']);
+		$bap_chan = sanitize_text_field($_POST['bap_chan']);
+		$co_ao = sanitize_text_field($_POST['co_ao']);
+		$co_tay_ao = sanitize_text_field($_POST['co_tay_ao']);
+		$dau_goi = sanitize_text_field($_POST['dau_goi']);
+		$co_chan = sanitize_text_field($_POST['co_chan']);
 
         // Lưu dữ liệu vào user meta
-        update_user_meta(get_current_user_id(), 'so_do_1', $selection1);
-        update_user_meta(get_current_user_id(), 'so_do_2', $selection2);
-        update_user_meta(get_current_user_id(), 'so_do_3', $selection3);
+        update_user_meta(get_current_user_id(), 'vong_nguc', $vong_nguc);
+        update_user_meta(get_current_user_id(), 'vong_eo', $vong_eo);
+        update_user_meta(get_current_user_id(), 'vong_hong', $vong_hong);
+		update_user_meta(get_current_user_id(), 'ba_vai', $ba_vai);
+		update_user_meta(get_current_user_id(), 'dai_ao', $dai_ao);
+		update_user_meta(get_current_user_id(), 'dai_quan', $dai_quan);
+		update_user_meta(get_current_user_id(), 'bap_chan', $bap_chan);
+		update_user_meta(get_current_user_id(), 'co_ao', $co_ao);
+		update_user_meta(get_current_user_id(), 'co_tay_ao', $co_tay_ao);
+		update_user_meta(get_current_user_id(), 'dau_goi', $dau_goi);
+		update_user_meta(get_current_user_id(), 'co_chan', $co_chan);
 
 		// Thêm sản phẩm vào giỏ hàng
         WC()->cart->add_to_cart($product_id, $quantity, 0, array(), array(
-            'measurement1' => $selection1,
-            'measurement2' => $selection2,
-            'measurement3' => $selection3,
+            'vong_nguc' => $vong_nguc,
+            'vong_eo' => $vong_eo,
+            'vong_hong' => $vong_hong,
+			'ba_vai' => $ba_vai,
+			'dai_ao' => $dai_ao,
+			'dai_quan' => $dai_quan,
+			'bap_chan' => $bap_chan,
+			'co_ao' => $co_ao,
+			'co_tay_ao' => $co_tay_ao,
+			'dau_goi' => $dau_goi,
+			'co_chan' => $co_chan,
         ));
     }
     wp_die();
