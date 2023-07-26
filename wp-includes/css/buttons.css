@@ -138,8 +138,8 @@ TABLE OF CONTENTS:
 .wp-core-ui .button-secondary:focus {
 	background: #f6f7f7;
 	border-color: #3582c4;
-	color: #0a4b78;
-	box-shadow: 0 0 0 1px #3582c4;
+	color: #000000;
+	box-shadow: 0 0 0 1px #000000;
 	/* Only visible in Windows High Contrast mode */
 	outline: 2px solid transparent;
 	/* Reset inherited offset from Gutenberg */
