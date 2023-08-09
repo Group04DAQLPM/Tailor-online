@@ -8564,7 +8564,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Vòng Ngực',
         'options'     => array_combine( range( 80, 100 ), range( 80, 100 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $vong_nguc);
@@ -8573,7 +8573,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Vòng eo',
         'options'     => array_combine( range( 60, 80 ), range( 60, 80 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $vong_eo );
@@ -8582,7 +8582,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo vòng hông',
         'options'     => array_combine( range( 85, 105 ), range( 85, 105 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $vong_hong );
@@ -8590,7 +8590,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo chiều dài bả vai',
         'options'     => array_combine( range( 40, 50 ), range( 40, 50 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $ba_vai );
@@ -8598,7 +8598,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo chiều dài tay áo',
         'options'     => array_combine( range( 55, 65 ), range( 55, 65 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $dai_ao );
@@ -8606,7 +8606,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo chiều dài quần',
         'options'     => array_combine( range( 95, 110 ), range( 95, 110 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $dai_quan );
@@ -8614,7 +8614,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo bắp chân',
         'options'     => array_combine( range( 30, 40 ), range( 30, 40 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $bap_chan );
@@ -8622,7 +8622,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo cổ áo',
         'options'     => array_combine( range( 35, 40 ), range( 35, 40 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $co_ao );
@@ -8630,7 +8630,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo cổ tay áo',
         'options'     => array_combine( range( 15, 20 ), range( 15, 20 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $co_tay_ao );
@@ -8638,7 +8638,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo vòng đầu gối',
         'options'     => array_combine( range( 35, 40 ), range( 35, 40 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $dau_goi );
@@ -8646,7 +8646,7 @@ function custom_myaccount_endpoint_content() {
         'type'        => 'select',
         'label'       => 'Số đo cổ chân',
         'options'     => array_combine( range( 20, 25 ), range( 20, 25 ) ),
-        'required'    => false,
+        'required'    => true,
         'class'       => array( 'form-row-wide' ),
         'input_class' => array( 'select' ),
     ), $co_chan );
@@ -8765,17 +8765,17 @@ function add_to_cart_popup_script() {
 				console.log(vong_eo);
 				console.log(vong_hong);
 				// Gán giá trị mặc định cho các trường selection trong popup
-				document.getElementById('wpforms-4797-field_1').value = vong_nguc;
-				document.getElementById('wpforms-4797-field_2').value = vong_eo;
-				document.getElementById('wpforms-4797-field_3').value = vong_hong;
-				document.getElementById('wpforms-4797-field_5').value = ba_vai;
-				document.getElementById('wpforms-4797-field_6').value = dai_ao;
-				document.getElementById('wpforms-4797-field_7').value = dai_quan;
-				document.getElementById('wpforms-4797-field_8').value = bap_chan;
-				document.getElementById('wpforms-4797-field_9').value = co_ao;
-				document.getElementById('wpforms-4797-field_10').value = co_tay_ao;
-				document.getElementById('wpforms-4797-field_11').value = dau_goi;
-				document.getElementById('wpforms-4797-field_12').value = co_chan;
+				document.getElementById('wpforms-4797-field_4').value = vong_nguc;
+				document.getElementById('wpforms-4797-field_5').value = vong_eo;
+				document.getElementById('wpforms-4797-field_6').value = vong_hong;
+				document.getElementById('wpforms-4797-field_7').value = ba_vai;
+				document.getElementById('wpforms-4797-field_8').value = dai_ao;
+				document.getElementById('wpforms-4797-field_9').value = dai_quan;
+				document.getElementById('wpforms-4797-field_10').value = bap_chan;
+				document.getElementById('wpforms-4797-field_11').value = co_ao;
+				document.getElementById('wpforms-4797-field_12').value = co_tay_ao;
+				document.getElementById('wpforms-4797-field_13').value = dau_goi;
+				document.getElementById('wpforms-4797-field_14').value = co_chan;
 
 
             // Hiển thị popup
@@ -8801,17 +8801,17 @@ function add_custom_script_to_footer() {
 
 
                 // Lấy giá trị từ 3 trường selection
-                var vong_nguc = $('#wpforms-4797-field_1').val();
-                var vong_eo = $('#wpforms-4797-field_2').val();
-                var vong_hong = $('#wpforms-4797-field_3').val();
-				var ba_vai = $('#wpforms-4797-field_5').val();
-				var dai_ao = $('#wpforms-4797-field_6').val();
-				var dai_quan = $('#wpforms-4797-field_7').val();
-				var bap_chan = $('#wpforms-4797-field_8').val();
-				var co_ao = $('#wpforms-4797-field_9').val();
-				var co_tay_ao = $('#wpforms-4797-field_10').val();
-				var dau_goi = $('#wpforms-4797-field_11').val();
-				var co_chan = $('#wpforms-4797-field_12').val();
+                var vong_nguc = $('#wpforms-4797-field_4').val();
+                var vong_eo = $('#wpforms-4797-field_5').val();
+                var vong_hong = $('#wpforms-4797-field_6').val();
+				var ba_vai = $('#wpforms-4797-field_7').val();
+				var dai_ao = $('#wpforms-4797-field_8').val();
+				var dai_quan = $('#wpforms-4797-field_9').val();
+				var bap_chan = $('#wpforms-4797-field_10').val();
+				var co_ao = $('#wpforms-4797-field_11').val();
+				var co_tay_ao = $('#wpforms-4797-field_12').val();
+				var dau_goi = $('#wpforms-4797-field_13').val();
+				var co_chan = $('#wpforms-4797-field_14').val();
 				
 
 				var product_id = <?php echo get_the_ID(); ?>;
