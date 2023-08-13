@@ -28,9 +28,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<th class="product-remove"><span class="screen-reader-text"><?php esc_html_e( 'Remove item', 'woocommerce' ); ?></span></th>
 				<th class="product-thumbnail"><span class="screen-reader-text"><?php esc_html_e( 'Thumbnail image', 'woocommerce' ); ?></span></th>
 				<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
+				<th class="product-measure"><?php esc_html_e( 'Số đo khách hàng', 'woocommerce ' ); ?></th>
 				<th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th>
 				<th class="product-quantity"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
 				<th class="product-subtotal"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
+				
 			</tr>
 		</thead>
 		<tbody>
@@ -116,6 +118,23 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 						</td>
 
+
+						<td class="product-measure" data-title="<?php esc_attr_e( 'Số đo khách hàng', 'woocommerce' ); ?>">
+							<?php
+								echo esc_html( $cart_item['vong_nguc'] ) . ' - '
+									. esc_html( $cart_item['vong_eo'] ) . ' - '
+									. esc_html( $cart_item['vong_hong'] ) . ' - '
+									. esc_html( $cart_item['ba_vai'] ) . ' - '
+									. esc_html( $cart_item['dai_ao'] ) . ' - '
+									. esc_html( $cart_item['dai_quan'] ) . ' - '
+									. esc_html( $cart_item['bap_chan'] ) . ' - '
+									. esc_html( $cart_item['co_ao'] ) . ' - '
+									. esc_html( $cart_item['co_tay_ao'] ) . ' - '
+									. esc_html( $cart_item['dau_goi'] ) . ' - '
+									. esc_html( $cart_item['co_chan'] )  ;	
+							?>
+						</td>
+
 						<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
 							<?php
 								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
@@ -153,6 +172,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 								echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 							?>
 						</td>
+
+		
 					</tr>
 					<?php
 				}

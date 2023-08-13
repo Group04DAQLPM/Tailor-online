@@ -8745,7 +8745,33 @@ function add_to_cart_popup_script() {
         
         // Xử lý sự kiện khi nhấn nút "Add to Cart"
         addToCartButton.addEventListener('click', function(event) {
-           		event.preventDefault(); // Ngăn chặn hành vi mặc định của nút "Add to Cart"
+			event.preventDefault(); // Ngăn chặn hành vi mặc định của nút "Add to Cart"
+
+				// Lấy danh mục của sản phẩm được thêm vào giỏ hàng
+				var productCategories = <?php echo json_encode(wp_get_post_terms(get_the_ID(), 'product_cat', array('fields' => 'names'))); ?>;
+				
+				// Kiểm tra xem danh mục 'Áo' có trong danh sách không
+				if (productCategories.includes('Áo')) {
+					document.getElementById('wpforms-4797-field_9').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_10').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_13').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_14').parentNode.style.display = 'none';
+				} else {
+					// Nếu không có danh mục 'Quần', thực hiện các thao tác khác tại đây
+					console.log('Product is not in the Men category');
+				}
+
+				// Kiểm tra xem danh mục 'Men' có trong danh sách không
+				if (productCategories.includes('Quần')) {
+					document.getElementById('wpforms-4797-field_4').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_7').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_8').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_11').parentNode.style.display = 'none';
+					document.getElementById('wpforms-4797-field_12').parentNode.style.display = 'none';
+				} else {
+					// Nếu không có danh mục 'Men', thực hiện các thao tác khác tại đây
+					console.log('Product is not in the Men category');
+				}
 
 				// Lấy giá trị từ usermeta
 				var vong_nguc = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'vong_nguc', true)); ?>';
@@ -8760,10 +8786,6 @@ function add_to_cart_popup_script() {
 				var dau_goi = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'dau_goi', true)); ?>';
 				var co_chan = '<?php echo esc_js(get_user_meta(get_current_user_id(), 'co_chan', true)); ?>';
 				
-
-				console.log(vong_nguc);
-				console.log(vong_eo);
-				console.log(vong_hong);
 				// Gán giá trị mặc định cho các trường selection trong popup
 				document.getElementById('wpforms-4797-field_4').value = vong_nguc;
 				document.getElementById('wpforms-4797-field_5').value = vong_eo;
@@ -8778,7 +8800,7 @@ function add_to_cart_popup_script() {
 				document.getElementById('wpforms-4797-field_14').value = co_chan;
 
 
-            // Hiển thị popup
+            // Hiển thị popup form
             var popupId = '4811'; // Thay thế 'replace-with-popup-id' bằng ID của popup bạn đã tạo bằng plugin "Popup Maker"
             PUM.open(popupId);
         });
@@ -8925,6 +8947,64 @@ add_action('wp_ajax_nopriv_save_selection_to_user_meta', 'save_selection_to_user
 add_action('wp_ajax_save_selection_to_user_meta', 'save_selection_to_user_meta');
 
 
+
+add_action('woocommerce_checkout_create_order_line_item', 'add_custom_attributes_to_order_item', 10, 4);
+function add_custom_attributes_to_order_item($item, $cart_item_key, $values, $order) {
+    $vong_nguc = $values['vong_nguc'];
+    $vong_eo = $values['vong_eo'];
+	$vong_hong = $values['vong_hong'];
+    $ba_vai = $values['ba_vai'];
+	$dai_ao = $values['dai_ao'];
+    $dai_quan = $values['dai_quan'];
+	$bap_chan = $values['bap_chan'];
+    $co_ao = $values['co_ao'];
+	$co_tay_ao = $values['co_tay_ao'];
+    $dau_goi = $values['dau_goi'];
+	$co_chan = $values['co_chan'];
+
+    // Lấy các giá trị thuộc tính khác từ giỏ hàng tương tự
+
+    if (!empty($vong_nguc)) {
+        $item->add_meta_data('Vòng ngực', $vong_nguc);
+    }
+    if (!empty($vong_eo)) {
+        $item->add_meta_data('Vòng eo', $vong_eo);
+    }
+	if (!empty($vong_hong)) {
+        $item->add_meta_data('Vòng hông', $vong_hong);
+    }
+    if (!empty($ba_vai)) {
+        $item->add_meta_data('Chiều dài bả vai', $ba_vai);
+    }
+	if (!empty($dai_ao)) {
+        $item->add_meta_data('Chiều dài tay áo', $dai_ao);
+    }
+    if (!empty($dai_quan)) {
+        $item->add_meta_data('Chiều dài chân', $dai_quan);
+    }
+	if (!empty($bap_chan)) {
+        $item->add_meta_data('Bắp chân', $bap_chan);
+    }
+    if (!empty($co_ao)) {
+        $item->add_meta_data('Cổ áo', $co_ao);
+    }
+	if (!empty($co_tay_ao)) {
+        $item->add_meta_data('Cổ tay áo', $co_tay_ao);
+    }
+    if (!empty($dau_goi)) {
+        $item->add_meta_data('Đầu gối', $dau_goi);
+    }
+	if (!empty($co_chan)) {
+        $item->add_meta_data('Cổ chân', $co_chan);
+    }
+   
+    // Lưu các thuộc tính khác tương tự
+}
+
+
+
+
+
 // // Hàm này thêm sản phẩm vào giỏ hàng với các giá trị selection đã lưu trong session
 // function add_product_to_cart_with_selection($cart_item_data, $product_id) {
 //     if ($selection_data = WC()->session->get('product_selection_' . $product_id)) {
@@ -8934,3 +9014,13 @@ add_action('wp_ajax_save_selection_to_user_meta', 'save_selection_to_user_meta')
 // }
 // add_filter('woocommerce_add_cart_item_data', 'add_product_to_cart_with_selection', 10, 2);
 
+
+add_filter( 'woocommerce_new_order', 'change_default_order_status', 10, 1 );
+function change_default_order_status( $order_id ) {
+    $payment_method = get_post_meta( $order_id, '_payment_method', true );
+
+    if ( 'bacs' === $payment_method ) {
+        $order = wc_get_order( $order_id );
+        $order->update_status( 'pending' ); // Thay 'processing' bằng trạng thái mong muốn
+    }
+}
