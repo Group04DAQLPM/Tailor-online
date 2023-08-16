@@ -1,0 +1,15 @@
+2023-08-09T08:39:53+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Table 'abc.wpkh_actionscheduler_actions' doesn't exist in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:118
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(62): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(244): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(151): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(122): ActionScheduler_ActionFactory->recurring_unique('woocommerce_cle...', Array, false, 86400, '', false)
+#4 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#10 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 118
+

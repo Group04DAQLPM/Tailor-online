@@ -1,0 +1,325 @@
+2023-08-16T04:07:32+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T04:07:38+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T04:07:47+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T04:07:59+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T04:08:09+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T04:08:18+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:07+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:16+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:22+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:31+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:41+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T05:56:51+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T06:22:14+00:00 CRITICAL Uncaught Error: Class "Bookly\Lib\Updater" not found in C:\xampp\htdocs\Tailor-online\wp-content\plugins\bookly-responsive-appointment-booking-tool\lib\base\Plugin.php:485
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\bookly-responsive-appointment-booking-tool\lib\base\Plugin.php(128): Bookly\Lib\Base\Plugin::update()
+#1 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Bookly\Lib\Base\Plugin::Bookly\Lib\Base\{closure}('')
+#2 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-settings.php(623): do_action('init')
+#5 C:\xampp\htdocs\Tailor-online\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Tailor-online\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\bookly-responsive-appointment-booking-tool\lib\base\Plugin.php on line 485
+
+2023-08-16T07:00:47+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:00:51+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:00:58+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:01:05+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:01:11+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:01:18+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:57:38+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:57:41+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:57:45+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:57:51+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:57:58+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+
+2023-08-16T07:58:07+00:00 CRITICAL Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php:102
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php(102): mysqli_num_rows(false)
+#1 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database.php(682): Ai1wm_Database_Mysqli->num_rows(false)
+#2 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\model\export\class-ai1wm-export-database.php(136): Ai1wm_Database->export('C:\\xampp\\htdocs...', 3, 0)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-export-controller.php(78): Ai1wm_Export_Database::execute(Array)
+#4 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): Ai1wm_Export_Controller::export(Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_e...')
+#8 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\database\class-ai1wm-database-mysqli.php on line 102
+

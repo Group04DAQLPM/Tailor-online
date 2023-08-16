@@ -1,0 +1,73 @@
+2023-08-11T03:28:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Tailor-online\wp-content\plugins\elementor-pro\modules\forms\submissions\data\controller.php on line 9
+
+2023-08-11T03:28:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\all-products-frontend.asset.php on line 1
+
+2023-08-11T07:17:17+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 161
+
+2023-08-11T07:17:48+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 160
+
+2023-08-11T07:18:19+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 161
+
+2023-08-11T07:19:04+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 161
+
+2023-08-11T07:20:42+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 161
+
+2023-08-11T07:26:52+00:00 CRITICAL syntax error, unexpected token "%" in C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\cart\cart.php on line 126
+
+2023-08-11T07:38:45+00:00 CRITICAL Uncaught Error: Call to a member function get_product() on int in C:\xampp\htdocs\Tailor-online\wp-includes\functions.php:8942
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(310): display_order_item_data(77, Object(WC_Order_Item_Product), Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\emails\email-order-items.php(58): do_action('woocommerce_ord...', 77, Object(WC_Order_Item_Product), Object(Automattic\WooCommerce\Admin\Overrides\Order), false)
+#4 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3373): wc_get_template('emails/email-or...', Array)
+#6 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\emails\email-order-details.php(56): wc_get_email_order_items(Object(Automattic\WooCommerce\Admin\Overrides\Order), Array)
+#7 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-emails.php(421): wc_get_template('emails/email-or...', Array)
+#9 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): WC_Emails->order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order), true, false, Object(WC_Email_New_Order))
+#10 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\templates\emails\admin-new-order.php(35): do_action('woocommerce_ema...', Object(Automattic\WooCommerce\Admin\Overrides\Order), true, false, Object(WC_Email_New_Order))
+#13 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\wc-core-functions.php(364): wc_get_template('emails/admin-ne...', Array, '', '')
+#15 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\emails\class-wc-email-new-order.php(134): wc_get_template_html('emails/admin-ne...', Array)
+#16 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(581): WC_Email_New_Order->get_content_html()
+#17 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\emails\class-wc-email-new-order.php(111): WC_Email->get_content()
+#18 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): WC_Email_New_Order->trigger(4904, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#19 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-emails.php(170): do_action_ref_array('woocommerce_ord...', Array)
+#22 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): WC_Emails::send_transactional_email(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#23 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#24 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#25 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-order.php(396): do_action('woocommerce_ord...', 4904, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#26 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-order.php(245): WC_Order->status_transition()
+#27 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-order.php(357): WC_Order->save()
+#28 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php(371): WC_Order->update_status('on-hold', 'Ch\xE1\xBB\x9D thanh to\xC3...')
+#29 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1050): WC_Gateway_BACS->process_payment(4904)
+#30 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1279): WC_Checkout->process_order_payment(4904, 'bacs')
+#31 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(369): WC_Checkout->process_checkout()
+#32 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): WC_Form_Handler::checkout_action('')
+#33 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#34 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#35 C:\xampp\htdocs\Tailor-online\wp-settings.php(645): do_action('wp_loaded')
+#36 C:\xampp\htdocs\Tailor-online\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#37 C:\xampp\htdocs\Tailor-online\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#38 C:\xampp\htdocs\Tailor-online\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#39 C:\xampp\htdocs\Tailor-online\index.php(17): require('C:\\xampp\\htdocs...')
+#40 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-includes\functions.php on line 8942
+
+2023-08-11T07:45:45+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\Tailor-online\wp-includes\functions.php:8929
+Stack trace:
+#0 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(308): display_custom_order_data_in_admin(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\Tailor-online\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Tailor-online\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Tailor-online\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(566): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\Tailor-online\wp-admin\includes\template.php(1445): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 C:\xampp\htdocs\Tailor-online\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 C:\xampp\htdocs\Tailor-online\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\Tailor-online\wp-includes\functions.php on line 8929
+

@@ -1,0 +1,18 @@
+2023-07-05T08:39:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1781760 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 523
+
+2023-07-05T08:46:02+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 868352 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 523
+
+2023-07-05T10:54:01+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Database error. in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:118
+Stack trace:
+#0 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(62): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(244): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(114): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugin in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 118
+
+2023-07-05T11:09:53+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Database error. in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:118
+Stack trace:
+#0 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(62): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(244): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(114): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugin in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 118
+

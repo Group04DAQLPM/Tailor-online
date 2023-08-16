@@ -1,0 +1,1433 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 06:26:05
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.8                                 |8.0.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28
+DOC ROOT____________: "C:/xampp/htdocs/Tailor-online"
+REQUEST URL_________: "http://localhost/Tailor-online"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/Tailor-online"
+URL_NEW_____________: "http://localhost/Tailor-online"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/Tailor-online/20230706_tailor_[HASH]_20230706214659_archive.zip"
+ARCHIVE SIZE________: 106.15MB
+CREATED_____________: 2023-07-06 21:46:59
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 1.5.5
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.17
+DB FILE SIZE________: 17.81MB
+DB TABLES___________: 67
+DB ROWS_____________: 11120
+URL HOME____________: https://tailor-online.great-site.net
+URL CORE____________: https://tailor-online.great-site.net
+URL CONTENT_________: https://tailor-online.great-site.net/wp-content
+URL UPLOAD__________: https://tailor-online.great-site.net/wp-content/uploads
+URL PLUGINS_________: https://tailor-online.great-site.net/wp-content/plugins
+URL MU PLUGINS______: https://tailor-online.great-site.net/wp-content/mu-plugins
+URL THEMES__________: https://tailor-online.great-site.net/wp-content/themes
+PATH HOME___________: /home/vol19_2/infinityfree.com/if0_34484123/htdocs
+PATH ABS____________: /home/vol19_2/infinityfree.com/if0_34484123/htdocs
+PATH WPCONFIG_______: /home/vol19_2/infinityfree.com/if0_34484123/htdocs
+PATH WPCONTENT______: /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content
+PATH UPLOADS________: /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/uploads
+PATH PLUGINS________: /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/plugins
+PATH MUPLUGINS______: /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/mu-plugins
+PATH THEMES_________: /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "tailor-online.great-site.net/"
+
+PLUGINS
+PLUGIN [SLUG:cartflows/cartflows.php                           ][ON:true ]  CartFlows
+PLUGIN [SLUG:checkout-plugins-stripe-woo/checkout-plugins-stripe-woo.php][ON:true ]  Checkout Plugins - Stripe for WooCommerce
+PLUGIN [SLUG:code-snippets/code-snippets.php                   ][ON:true ]  Code Snippets
+PLUGIN [SLUG:db-access-adminer/db-access-adminer.php           ][ON:true ]  Database Access with Adminer
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:easy-form-builder/emsfb.php                       ][ON:true ]  Easy Form Builder
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:login-logout-register-menu/login-logout-register-menu.php][ON:true ]  Login Logout Register Menu
+PLUGIN [SLUG:ultimate-addons-for-gutenberg/ultimate-addons-for-gutenberg.php][ON:true ]  Spectra
+PLUGIN [SLUG:astra-sites/astra-sites.php                       ][ON:true ]  Starter Templates
+PLUGIN [SLUG:variation-swatches-woo/variation-swatches-woo.php ][ON:true ]  Variation Swatches for WooCommerce
+PLUGIN [SLUG:woo-variation-swatches/woo-variation-swatches.php ][ON:true ]  Variation Swatches for WooCommerce
+PLUGIN [SLUG:weforms/weforms.php                               ][ON:true ]  weForms
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woo-cart-abandonment-recovery/woo-cart-abandonment-recovery.php][ON:true ]  WooCommerce Cart Abandonment Recovery
+PLUGIN [SLUG:wp-dbmanager/wp-dbmanager.php                     ][ON:true ]  WP-DBManager
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.62605]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.91315]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+LOG-TIME[DELTA:   0.23053]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01506]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.06791]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00102]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00384]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00210]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00028]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00327]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00152]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05293]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00133]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00432]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 06:26:35
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Tailor"
+HOME URL NEW________: "http://localhost/Tailor-online"
+SITE URL NEW________: "http://localhost/Tailor-online/"
+CONTENT URL NEW_____: "http://localhost/Tailor-online/wp-content"
+UPLOAD URL NEW______: "http://localhost/Tailor-online/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/Tailor-online/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/Tailor-online/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/Tailor-online"
+SITE PATH NEW_______: "C:/xampp/htdocs/Tailor-online/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/Tailor-online/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/Tailor-online/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/Tailor-online/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/Tailor-online/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/Tailor-online/dup-installer"
+	FILE: "C:/xampp/htdocs/Tailor-online/20230706_tailor_[HASH]_20230706214659_installer-backup.php"
+	FILE: "C:/xampp/htdocs/Tailor-online/20230706_tailor_[HASH]_20230706214659_archive.zip"
+	FILE: "C:/xampp/htdocs/Tailor-online/installer.php"
+	FILE: "C:/xampp/htdocs/Tailor-online/dup-installer-bootlog__a5097eb-06214659.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230706_tailor_[HASH]_20230706214659_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0096 sec. - Files processed: 2,869 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2869
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0138 sec. - Files processed: 3,615 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3615
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0173 sec. - Files processed: 4,469 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4469
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0294 sec. - Files processed: 5,156 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5156
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0339 sec. - Files processed: 5,694 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5694
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0245 sec. - Files processed: 6,237 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6237
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0175 sec. - Files processed: 6,912 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6912
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0199 sec. - Files processed: 7,462 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7462
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0346 sec. - Files processed: 7,979 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7979
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0179 sec. - Files processed: 8,505 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8505
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0220 sec. - Files processed: 9,050 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9050
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0326 sec. - Files processed: 9,696 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9696
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0198 sec. - Files processed: 10,396 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10396
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0199 sec. - Files processed: 10,878 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10878
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0590 sec. - Files processed: 11,394 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11394
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0178 sec. - Files processed: 12,070 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12070
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0185 sec. - Files processed: 12,877 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12877
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0194 sec. - Files processed: 13,535 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13535
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0224 sec. - Files processed: 14,204 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14204
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0177 sec. - Files processed: 14,772 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14772
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0207 sec. - Files processed: 15,363 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15363
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0223 sec. - Files processed: 15,859 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15859
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0135 sec. - Files processed: 16,771 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16771
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Tailor-online"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 17762
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 06:28:52 - RUNTIME: 137.2902 sec. - Files processed: 17,157 of 17,157
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wpkh_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 06:28:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wpkh_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wpkh_actionscheduler_actions"____________________[ROWS:     284] [EXTRACT|REPLACE] [INST NAME: wpkh_actionscheduler_actions]
+TABLE "wpkh_actionscheduler_claims"_____________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wpkh_actionscheduler_claims]
+TABLE "wpkh_actionscheduler_groups"_____________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wpkh_actionscheduler_groups]
+TABLE "wpkh_actionscheduler_logs"_______________________[ROWS:    2153] [EXTRACT|REPLACE] [INST NAME: wpkh_actionscheduler_logs]
+TABLE "wpkh_cartflows_ca_cart_abandonment"______________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpkh_cartflows_ca_cart_abandonment]
+TABLE "wpkh_cartflows_ca_email_history"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_cartflows_ca_email_history]
+TABLE "wpkh_cartflows_ca_email_templates"_______________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wpkh_cartflows_ca_email_templates]
+TABLE "wpkh_cartflows_ca_email_templates_meta"__________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wpkh_cartflows_ca_email_templates_meta]
+TABLE "wpkh_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_commentmeta]
+TABLE "wpkh_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_comments]
+TABLE "wpkh_duplicator_packages"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpkh_duplicator_packages]
+TABLE "wpkh_emsfb_form"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_emsfb_form]
+TABLE "wpkh_emsfb_msg_"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_emsfb_msg_]
+TABLE "wpkh_emsfb_rsp_"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_emsfb_rsp_]
+TABLE "wpkh_emsfb_setting"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_emsfb_setting]
+TABLE "wpkh_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_e_events]
+TABLE "wpkh_frmt_form_entry"____________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wpkh_frmt_form_entry]
+TABLE "wpkh_frmt_form_entry_meta"_______________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wpkh_frmt_form_entry_meta]
+TABLE "wpkh_frmt_form_reports"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_frmt_form_reports]
+TABLE "wpkh_frmt_form_views"____________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wpkh_frmt_form_views]
+TABLE "wpkh_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_links]
+TABLE "wpkh_options"____________________________________[ROWS:     766] [EXTRACT|REPLACE] [INST NAME: wpkh_options]
+TABLE "wpkh_postmeta"___________________________________[ROWS:    6089] [EXTRACT|REPLACE] [INST NAME: wpkh_postmeta]
+TABLE "wpkh_posts"______________________________________[ROWS:     556] [EXTRACT|REPLACE] [INST NAME: wpkh_posts]
+TABLE "wpkh_snippets"___________________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpkh_snippets]
+TABLE "wpkh_termmeta"___________________________________[ROWS:      55] [EXTRACT|REPLACE] [INST NAME: wpkh_termmeta]
+TABLE "wpkh_terms"______________________________________[ROWS:      68] [EXTRACT|REPLACE] [INST NAME: wpkh_terms]
+TABLE "wpkh_term_relationships"_________________________[ROWS:     289] [EXTRACT|REPLACE] [INST NAME: wpkh_term_relationships]
+TABLE "wpkh_term_taxonomy"______________________________[ROWS:      68] [EXTRACT|REPLACE] [INST NAME: wpkh_term_taxonomy]
+TABLE "wpkh_usermeta"___________________________________[ROWS:     168] [EXTRACT|REPLACE] [INST NAME: wpkh_usermeta]
+TABLE "wpkh_users"______________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wpkh_users]
+TABLE "wpkh_user_registration_sessions"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_user_registration_sessions]
+TABLE "wpkh_wc_admin_notes"_____________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_admin_notes]
+TABLE "wpkh_wc_admin_note_actions"______________________[ROWS:      97] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_admin_note_actions]
+TABLE "wpkh_wc_category_lookup"_________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_category_lookup]
+TABLE "wpkh_wc_customer_lookup"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_customer_lookup]
+TABLE "wpkh_wc_download_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_download_log]
+TABLE "wpkh_wc_order_coupon_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_order_coupon_lookup]
+TABLE "wpkh_wc_order_product_lookup"____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_order_product_lookup]
+TABLE "wpkh_wc_order_stats"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_order_stats]
+TABLE "wpkh_wc_order_tax_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_order_tax_lookup]
+TABLE "wpkh_wc_product_attributes_lookup"_______________[ROWS:     181] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_product_attributes_lookup]
+TABLE "wpkh_wc_product_download_directories"____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_product_download_directories]
+TABLE "wpkh_wc_product_meta_lookup"_____________________[ROWS:     129] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_product_meta_lookup]
+TABLE "wpkh_wc_rate_limits"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_rate_limits]
+TABLE "wpkh_wc_reserved_stock"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_reserved_stock]
+TABLE "wpkh_wc_tax_rate_classes"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_tax_rate_classes]
+TABLE "wpkh_wc_webhooks"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wc_webhooks]
+TABLE "wpkh_weforms_entries"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_weforms_entries]
+TABLE "wpkh_weforms_entrymeta"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_weforms_entrymeta]
+TABLE "wpkh_woocommerce_api_keys"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_api_keys]
+TABLE "wpkh_woocommerce_attribute_taxonomies"___________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_attribute_taxonomies]
+TABLE "wpkh_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_downloadable_product_permissions]
+TABLE "wpkh_woocommerce_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_log]
+TABLE "wpkh_woocommerce_order_itemmeta"_________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_order_itemmeta]
+TABLE "wpkh_woocommerce_order_items"____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_order_items]
+TABLE "wpkh_woocommerce_payment_tokenmeta"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_payment_tokenmeta]
+TABLE "wpkh_woocommerce_payment_tokens"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_payment_tokens]
+TABLE "wpkh_woocommerce_sessions"_______________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_sessions]
+TABLE "wpkh_woocommerce_shipping_zones"_________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_shipping_zones]
+TABLE "wpkh_woocommerce_shipping_zone_locations"________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_shipping_zone_locations]
+TABLE "wpkh_woocommerce_shipping_zone_methods"__________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_shipping_zone_methods]
+TABLE "wpkh_woocommerce_tax_rates"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_tax_rates]
+TABLE "wpkh_woocommerce_tax_rate_locations"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_woocommerce_tax_rate_locations]
+TABLE "wpkh_wpforms_payments"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wpforms_payments]
+TABLE "wpkh_wpforms_payment_meta"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpkh_wpforms_payment_meta]
+TABLE "wpkh_wpforms_tasks_meta"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpkh_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 10.4.17
+FILE SIZE:	dup-database__[HASH].sql (17.53MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wpkh_actionscheduler_actions
+DROP TABLE wpkh_actionscheduler_claims
+DROP TABLE wpkh_actionscheduler_groups
+DROP TABLE wpkh_actionscheduler_logs
+DROP TABLE wpkh_cartflows_ca_cart_abandonment
+DROP TABLE wpkh_cartflows_ca_email_history
+DROP TABLE wpkh_cartflows_ca_email_templates
+DROP TABLE wpkh_cartflows_ca_email_templates_meta
+DROP TABLE wpkh_commentmeta
+DROP TABLE wpkh_comments
+DROP TABLE wpkh_duplicator_packages
+DROP TABLE wpkh_e_events
+DROP TABLE wpkh_emsfb_form
+DROP TABLE wpkh_emsfb_msg_
+DROP TABLE wpkh_emsfb_rsp_
+DROP TABLE wpkh_emsfb_setting
+DROP TABLE wpkh_frmt_form_entry
+DROP TABLE wpkh_frmt_form_entry_meta
+DROP TABLE wpkh_frmt_form_reports
+DROP TABLE wpkh_frmt_form_views
+DROP TABLE wpkh_links
+DROP TABLE wpkh_options
+DROP TABLE wpkh_postmeta
+DROP TABLE wpkh_posts
+DROP TABLE wpkh_snippets
+DROP TABLE wpkh_term_relationships
+DROP TABLE wpkh_term_taxonomy
+DROP TABLE wpkh_termmeta
+DROP TABLE wpkh_terms
+DROP TABLE wpkh_user_registration_sessions
+DROP TABLE wpkh_usermeta
+DROP TABLE wpkh_users
+DROP TABLE wpkh_wc_admin_note_actions
+DROP TABLE wpkh_wc_admin_notes
+DROP TABLE wpkh_wc_category_lookup
+DROP TABLE wpkh_wc_customer_lookup
+DROP TABLE wpkh_wc_download_log
+DROP TABLE wpkh_wc_order_coupon_lookup
+DROP TABLE wpkh_wc_order_product_lookup
+DROP TABLE wpkh_wc_order_stats
+DROP TABLE wpkh_wc_order_tax_lookup
+DROP TABLE wpkh_wc_product_attributes_lookup
+DROP TABLE wpkh_wc_product_download_directories
+DROP TABLE wpkh_wc_product_meta_lookup
+DROP TABLE wpkh_wc_rate_limits
+DROP TABLE wpkh_wc_reserved_stock
+DROP TABLE wpkh_wc_tax_rate_classes
+DROP TABLE wpkh_wc_webhooks
+DROP TABLE wpkh_weforms_entries
+DROP TABLE wpkh_weforms_entrymeta
+DROP TABLE wpkh_woocommerce_api_keys
+DROP TABLE wpkh_woocommerce_attribute_taxonomies
+DROP TABLE wpkh_woocommerce_downloadable_product_permissions
+DROP TABLE wpkh_woocommerce_log
+DROP TABLE wpkh_woocommerce_order_itemmeta
+DROP TABLE wpkh_woocommerce_order_items
+DROP TABLE wpkh_woocommerce_payment_tokenmeta
+DROP TABLE wpkh_woocommerce_payment_tokens
+DROP TABLE wpkh_woocommerce_sessions
+DROP TABLE wpkh_woocommerce_shipping_zone_locations
+DROP TABLE wpkh_woocommerce_shipping_zone_methods
+DROP TABLE wpkh_woocommerce_shipping_zones
+DROP TABLE wpkh_woocommerce_tax_rate_locations
+DROP TABLE wpkh_woocommerce_tax_rates
+DROP TABLE wpkh_wpforms_payment_meta
+DROP TABLE wpkh_wpforms_payments
+DROP TABLE wpkh_wpforms_tasks_meta
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 176902
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 9724118
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	67
+RENAMED TABLES:	0
+QUERIES RAN:	11192
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wpkh_actionscheduler_actions"____________________[ROWS:   284]
+TABLE "wpkh_actionscheduler_claims"_____________________[ROWS:     6]
+TABLE "wpkh_actionscheduler_groups"_____________________[ROWS:     6]
+TABLE "wpkh_actionscheduler_logs"_______________________[ROWS:  2153]
+TABLE "wpkh_cartflows_ca_cart_abandonment"______________[ROWS:     2]
+TABLE "wpkh_cartflows_ca_email_history"_________________[ROWS:     0]
+TABLE "wpkh_cartflows_ca_email_templates"_______________[ROWS:     3]
+TABLE "wpkh_cartflows_ca_email_templates_meta"__________[ROWS:    18]
+TABLE "wpkh_commentmeta"________________________________[ROWS:     0]
+TABLE "wpkh_comments"___________________________________[ROWS:     1]
+TABLE "wpkh_duplicator_packages"________________________[ROWS:     2]
+TABLE "wpkh_e_events"___________________________________[ROWS:     0]
+TABLE "wpkh_emsfb_form"_________________________________[ROWS:     0]
+TABLE "wpkh_emsfb_msg_"_________________________________[ROWS:     0]
+TABLE "wpkh_emsfb_rsp_"_________________________________[ROWS:     0]
+TABLE "wpkh_emsfb_setting"______________________________[ROWS:     1]
+TABLE "wpkh_frmt_form_entry"____________________________[ROWS:     7]
+TABLE "wpkh_frmt_form_entry_meta"_______________________[ROWS:    18]
+TABLE "wpkh_frmt_form_reports"__________________________[ROWS:     1]
+TABLE "wpkh_frmt_form_views"____________________________[ROWS:     3]
+TABLE "wpkh_links"______________________________________[ROWS:     0]
+TABLE "wpkh_options"____________________________________[ROWS:   766]
+TABLE "wpkh_postmeta"___________________________________[ROWS:  6089]
+TABLE "wpkh_posts"______________________________________[ROWS:   556]
+TABLE "wpkh_snippets"___________________________________[ROWS:     5]
+TABLE "wpkh_term_relationships"_________________________[ROWS:   289]
+TABLE "wpkh_term_taxonomy"______________________________[ROWS:    68]
+TABLE "wpkh_termmeta"___________________________________[ROWS:    55]
+TABLE "wpkh_terms"______________________________________[ROWS:    68]
+TABLE "wpkh_user_registration_sessions"_________________[ROWS:     0]
+TABLE "wpkh_usermeta"___________________________________[ROWS:   168]
+TABLE "wpkh_users"______________________________________[ROWS:     7]
+TABLE "wpkh_wc_admin_note_actions"______________________[ROWS:    97]
+TABLE "wpkh_wc_admin_notes"_____________________________[ROWS:    71]
+TABLE "wpkh_wc_category_lookup"_________________________[ROWS:     4]
+TABLE "wpkh_wc_customer_lookup"_________________________[ROWS:     5]
+TABLE "wpkh_wc_download_log"____________________________[ROWS:     0]
+TABLE "wpkh_wc_order_coupon_lookup"_____________________[ROWS:     0]
+TABLE "wpkh_wc_order_product_lookup"____________________[ROWS:     2]
+TABLE "wpkh_wc_order_stats"_____________________________[ROWS:     1]
+TABLE "wpkh_wc_order_tax_lookup"________________________[ROWS:     0]
+TABLE "wpkh_wc_product_attributes_lookup"_______________[ROWS:   181]
+TABLE "wpkh_wc_product_download_directories"____________[ROWS:     2]
+TABLE "wpkh_wc_product_meta_lookup"_____________________[ROWS:   129]
+TABLE "wpkh_wc_rate_limits"_____________________________[ROWS:     0]
+TABLE "wpkh_wc_reserved_stock"__________________________[ROWS:     0]
+TABLE "wpkh_wc_tax_rate_classes"________________________[ROWS:     2]
+TABLE "wpkh_wc_webhooks"________________________________[ROWS:     0]
+TABLE "wpkh_weforms_entries"____________________________[ROWS:     0]
+TABLE "wpkh_weforms_entrymeta"__________________________[ROWS:     0]
+TABLE "wpkh_woocommerce_api_keys"_______________________[ROWS:     0]
+TABLE "wpkh_woocommerce_attribute_taxonomies"___________[ROWS:     5]
+TABLE "wpkh_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "wpkh_woocommerce_log"____________________________[ROWS:     0]
+TABLE "wpkh_woocommerce_order_itemmeta"_________________[ROWS:    26]
+TABLE "wpkh_woocommerce_order_items"____________________[ROWS:     3]
+TABLE "wpkh_woocommerce_payment_tokenmeta"______________[ROWS:     0]
+TABLE "wpkh_woocommerce_payment_tokens"_________________[ROWS:     0]
+TABLE "wpkh_woocommerce_sessions"_______________________[ROWS:     8]
+TABLE "wpkh_woocommerce_shipping_zone_locations"________[ROWS:     1]
+TABLE "wpkh_woocommerce_shipping_zone_methods"__________[ROWS:     1]
+TABLE "wpkh_woocommerce_shipping_zones"_________________[ROWS:     1]
+TABLE "wpkh_woocommerce_tax_rate_locations"_____________[ROWS:     0]
+TABLE "wpkh_woocommerce_tax_rates"______________________[ROWS:     0]
+TABLE "wpkh_wpforms_payment_meta"_______________________[ROWS:     0]
+TABLE "wpkh_wpforms_payments"___________________________[ROWS:     0]
+TABLE "wpkh_wpforms_tasks_meta"_________________________[ROWS:     5]
+
+INSERT DATA RUNTIME: 16.1436 sec.
+STEP-2 COMPLETE @ 06:29:10 - RUNTIME: 16.1446 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/vol19_2/infinityfree.com/if0_34484123/htdocs REPLACE: C:/xampp/htdocs/Tailor-online/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/vol19_2/infinityfree.com/if0_34484123/htdocs REPLACE: C:/xampp/htdocs/Tailor-online [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://tailor-online.great-site.net REPLACE: http://localhost/Tailor-online/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://tailor-online.great-site.net REPLACE: http://localhost/Tailor-online [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 06:29:11
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 128M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 128M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wpkh_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   207]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wpkh_actionscheduler_actions"____________________[ROWS:   284][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wpkh_actionscheduler_claims"_____________________[ROWS:     6][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_actionscheduler_groups"_____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wpkh_actionscheduler_logs"_______________________[ROWS:  2153][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_actionscheduler_logs][1]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_actionscheduler_logs][2]
+
+EVALUATE TABLE: "wpkh_cartflows_ca_cart_abandonment"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_cartflows_ca_cart_abandonment][0]
+
+EVALUATE TABLE: "wpkh_cartflows_ca_email_history"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_cartflows_ca_email_templates"_______________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_cartflows_ca_email_templates][0]
+
+EVALUATE TABLE: "wpkh_cartflows_ca_email_templates_meta"__________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_cartflows_ca_email_templates_meta][0]
+
+EVALUATE TABLE: "wpkh_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_comments][0]
+
+EVALUATE TABLE: "wpkh_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_emsfb_form"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_emsfb_msg_"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_emsfb_rsp_"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_emsfb_setting"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_emsfb_setting][0]
+
+EVALUATE TABLE: "wpkh_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_frmt_form_entry"____________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_frmt_form_entry][0]
+
+EVALUATE TABLE: "wpkh_frmt_form_entry_meta"_______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_frmt_form_entry_meta][0]
+
+EVALUATE TABLE: "wpkh_frmt_form_reports"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_frmt_form_reports][0]
+
+EVALUATE TABLE: "wpkh_frmt_form_views"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_frmt_form_views][0]
+
+EVALUATE TABLE: "wpkh_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_options"____________________________________[ROWS:   559][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_options][0]
+
+EVALUATE TABLE: "wpkh_postmeta"___________________________________[ROWS:  6089][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wpkh_postmeta][6]
+
+EVALUATE TABLE: "wpkh_posts"______________________________________[ROWS:   556][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_posts][0]
+
+EVALUATE TABLE: "wpkh_snippets"___________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_snippets][0]
+
+EVALUATE TABLE: "wpkh_termmeta"___________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_termmeta][0]
+
+EVALUATE TABLE: "wpkh_terms"______________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_terms][0]
+
+EVALUATE TABLE: "wpkh_term_relationships"_________________________[ROWS:   289][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_term_taxonomy"______________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_term_taxonomy][0]
+
+EVALUATE TABLE: "wpkh_usermeta"___________________________________[ROWS:   168][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_usermeta][0]
+
+EVALUATE TABLE: "wpkh_users"______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_users][0]
+
+EVALUATE TABLE: "wpkh_user_registration_sessions"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_admin_notes"_____________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_admin_notes][0]
+
+EVALUATE TABLE: "wpkh_wc_admin_note_actions"______________________[ROWS:    97][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wpkh_wc_category_lookup"_________________________[ROWS:     4][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_customer_lookup"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_customer_lookup][0]
+
+EVALUATE TABLE: "wpkh_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_order_product_lookup"____________________[ROWS:     2][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_order_stats"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_order_stats][0]
+
+EVALUATE TABLE: "wpkh_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_product_attributes_lookup"_______________[ROWS:   181][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_product_attributes_lookup][0]
+
+EVALUATE TABLE: "wpkh_wc_product_download_directories"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wpkh_wc_product_meta_lookup"_____________________[ROWS:   129][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wpkh_wc_rate_limits"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wpkh_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_weforms_entries"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_weforms_entrymeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_attribute_taxonomies"___________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_order_itemmeta"_________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_order_items"____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_order_items][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_sessions"_______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_shipping_zones"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_shipping_zone_locations"________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_shipping_zone_methods"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wpkh_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wpforms_payments"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wpforms_payment_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpkh_wpforms_tasks_meta"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/vol19_2/infinityfree.com/if0_34484123/htdocs" => "C:/xampp/htdocs/Tailor-online"
+	SEARCH[urlnd]  2:"https://tailor-online.great-site.net" ============> "http://localhost/Tailor-online"
+	CHUNK ACTION: CURRENT [search_replace][wpkh_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:67 	|	 Rows:10610 	|	 Cells:61115 
+UPDATED:	Tables:7 	|	 Rows:752 	|	 Cells:814 
+ERRORS:		0 
+RUNTIME:	3.434600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/Tailor-online/wp-config.php
+New htaccess file created:C:/xampp/htdocs/Tailor-online/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/Tailor-online/"
+	UPDATE DB_NAME ""abc""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+NO PERMALINK STRUCTURE FOUND: set htaccess without directives
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:29:15 - RUNTIME: 3.9536 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\xampp\htdocs\Tailor-online\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.17379]  MESSAGE:END RENDER PAGE

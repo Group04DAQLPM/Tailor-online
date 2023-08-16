@@ -1,0 +1,2 @@
+2023-07-31T22:26:53+00:00 CRITICAL Cannot redeclare wpforms_get_currencies() (previously declared in C:\xampp\htdocs\Tailor-online\wp-content\plugins\wpforms-lite\includes\functions\payments.php:19) in C:\xampp\htdocs\Tailor-online\wp-content\plugins\wpforms-lite\pro\includes\payments\functions.php on line 15
+
