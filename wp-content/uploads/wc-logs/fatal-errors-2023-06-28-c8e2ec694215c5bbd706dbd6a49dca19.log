@@ -1,8 +1,0 @@
-2023-06-28T05:55:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 2035712 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 523
-
-2023-06-28T07:33:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 2727936 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 237
-
-2023-06-28T08:20:12+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 2035712 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-includes/class-wp-scripts.php on line 237
-
-2023-06-28T08:20:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/vol19_2/infinityfree.com/if0_34484123/htdocs/wp-content/themes/astra/inc/google-fonts.php on line 21
-
